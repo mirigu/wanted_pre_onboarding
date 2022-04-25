@@ -10,7 +10,7 @@ const Toggle = () => {
 
   return (
     <React.Fragment>
-      <Title>Toggle.js - 난이도3</Title>
+      <Title>Toggle.js - 난이도 3</Title>
       <ToggleContainer>
         <ToggleBtn className={toggle}></ToggleBtn>
         <p onClick={clickedToggle}>기본</p>
@@ -38,7 +38,7 @@ const ToggleContainer = styled.div`
     z-index: 10;
     width: 100%;
     height: 100%;
-    font-weight: 500;
+    font-weight: bold;
     color: #268caa;
     display: flex;
     justify-content: center;
